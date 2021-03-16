@@ -6,12 +6,12 @@
 
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
-var playerAttack = 20;
+var playerAttack = 10;
 var playerMoney = 10;
 
 var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
-var enemyAttack = 40;
+var enemyAttack = 12;
 
 var fight = function(enemyName) {
     // repeat and execute as long as the enemy-robot is alive
